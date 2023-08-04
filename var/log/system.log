@@ -1,0 +1,19 @@
+[2023-08-04T11:31:42.974637+00:00] main.ERROR: Parameter validation failed
+#0 /home/ubuntu/magento-example/vendor/symfony/console/Command/Command.php(264): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /home/ubuntu/magento-example/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#2 /home/ubuntu/magento-example/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#3 /home/ubuntu/magento-example/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#4 /home/ubuntu/magento-example/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#5 /home/ubuntu/magento-example/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2023-08-04T11:32:33.654419+00:00] main.ERROR: Missing following extensions: 'mbstring'
+#0 [internal function]: Magento\Setup\Model\Installer->checkExtensions()
+#1 /home/ubuntu/magento-example/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array()
+#2 /home/ubuntu/magento-example/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#3 /home/ubuntu/magento-example/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute()
+#4 /home/ubuntu/magento-example/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#5 /home/ubuntu/magento-example/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#6 /home/ubuntu/magento-example/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#7 /home/ubuntu/magento-example/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#8 /home/ubuntu/magento-example/bin/magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
