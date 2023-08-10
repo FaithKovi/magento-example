@@ -4,6 +4,8 @@ value='nginx'
 
 [[build.env]]
 name = "BP_COMPOSER_AUTH"
-value = '{"http-basic":{"repo.magento.com":{"username":"$PUBLIC_KEY","password":"$PRIVATE_KEY"}}}'
+value ='{"http-basic":{"repo.magento.com":{"username":"$PUBLIC_KEY","password":"$PRIVATE_KEY"}}}'
 
-
+[[build.env]]
+name ="COMPOSER_VENDOR_DIR"
+value ='vendor'
