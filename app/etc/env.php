@@ -30,10 +30,10 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => 'db-mysql-nyc1-71251-do-user-2224784-0.b.db.ondigitalocean.com:25060',
-                'dbname' => 'defaultdb',
-                'username' => 'doadmin',
-                'password' => 'AVNS_0Z31DfqXYzy-Sa89msf',
+                'host' => 'database_hostname',
+                'dbname' => 'database_name',
+                'username' => 'database_username',
+                'password' => 'database_password',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
