@@ -2,3 +2,8 @@
 name='BP_PHP_SERVER'
 value='nginx'
 
+[[build.env]]
+name = "COMPOSER_AUTH"
+value = '{"http-basic":{"repo.magento.com":{"username":"'$PUBLIC_KEY'","password":"'$PRIVATE_KEY'"}}}'
+
+
