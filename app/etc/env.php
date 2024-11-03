@@ -34,7 +34,7 @@ return [
                 'dbname' => 'magento-db',
                 'username' => 'triggradmin',
                 'password' => 'V?3RUCQAW_Fh2Ol',
-                'model' => 'mysql8.1',
+                'model' => 'mysql8',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
                 'active' => '1',
