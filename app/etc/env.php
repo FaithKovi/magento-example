@@ -30,11 +30,11 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => 'db-mysql-nyc1-71251-do-user-2224784-0.b.db.ondigitalocean.com:25060',
-                'dbname' => 'defaultdb',
-                'username' => 'doadmin',
-                'password' => 'AVNS_0Z31DfqXYzy-Sa89msf',
-                'model' => 'mysql4',
+                'host' => '49.12.110.42:13209',
+                'dbname' => 'magento-db',
+                'username' => 'triggradmin',
+                'password' => 'V?3RUCQAW_Fh2Ol',
+                'model' => 'mysql8.1',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
                 'active' => '1',
