@@ -206,7 +206,7 @@ location /errors/ {
 # PHP entry point for main application
 location ~ ^/(index|get|static|errors/report|errors/404|errors/503|health_check)\.php$ {
     try_files $uri =404;
-    fastcgi_pass   php-fpm:9000;
+    fastcgi_pass   php-fpm;
     fastcgi_buffers 16 16k;
     fastcgi_buffer_size 32k;
 
