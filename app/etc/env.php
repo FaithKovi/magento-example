@@ -30,10 +30,10 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => '78.47.225.173:1371',
-                'dbname' => 'magento-db',
+                'host' => '78.47.225.173:13777',
+                'dbname' => 'mag-db',
                 'username' => 'triggradmin',
-                'password' => 'd89iRIQN.QtFXY1',
+                'password' => 'du8hNC/0H403Sxyk',
                 'model' => 'mysql8.1',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
